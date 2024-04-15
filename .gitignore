@@ -1,0 +1,15 @@
+.cache
+.config
+.local
+.bash_history
+.bash_logout
+.gitconfig
+.sudo_as_admin_successful
+.selected_editor
+.profile
+.bashrc
+.ssh
+.catch/gstreamer-1.0
+.config/ookla
+.ssh
+.vscode-server

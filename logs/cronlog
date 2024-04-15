@@ -1,0 +1,1 @@
+[ WARN:0@340.046] global ./modules/videoio/src/cap_gstreamer.cpp (862) isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
