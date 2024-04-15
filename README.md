@@ -1,5 +1,3 @@
----
-
 ## Project Description
 
 This project consists of three functional Python scripts:
