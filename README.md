@@ -10,10 +10,28 @@ This project consists of three functional Python scripts:
 
 ### GPIOs
 - **OVERALL_LED_PIN**: 11 (Indicates the status of the Pi)
-- **BUTTON_PIN**: 13 (Used to delete the images in `captured_images` and shutdown the Pi)
+- **BUTTON_PIN**: 13 (Used to delete the images in `captured_images` and shut down the Pi)
 - **status**: 2 (Indicates USB status)
 - **button_pin**: 22 (Used to capture images)
 - **buzzer_pin**: 27 (Indicates the status of the captured images)
+
+---
+
+### Prerequisites
+
+Make sure your Raspberry Pi has the following packages installed:
+
+1. **Python OpenCV**:  
+   ```
+   sudo apt install python3-opencv
+   ```
+
+2. **Pyudev Module**:  
+   ```
+   sudo apt install python3-pyudev
+   ```
+
+---
 
 ### Instructions
 To use this project, follow these steps:
@@ -22,21 +40,28 @@ To use this project, follow these steps:
    ```
    git clone https://github.com/Sathvik242004/Dataset-creator-rpi.git
    ```
+
 2. Navigate to the project directory:
    ```
    cd bee
    ```
-3. Install the required dependencies:
+
+3. Install the required Python dependencies:
    ```
    pip install -r requirements.txt
    ```
-4. Execute the launcher script:
+
+4. Execute the launcher script to start the project:
    ```
    sh launcher.sh
    ```
 
 ---
 
-This README provides an overview of the project, including its components, GPIO pin configurations, and instructions for getting started. Feel free to reach out if you have any questions or need further assistance.
-Contact: kunurusathvik4@gmail.com
+This README provides an overview of the project, including its components, GPIO pin configurations, prerequisites, and instructions for getting started.  
+
+Feel free to reach out if you have any questions or need further assistance.  
+
+**Contact**: kunurusathvik4@gmail.com  
+
 Happy coding!
